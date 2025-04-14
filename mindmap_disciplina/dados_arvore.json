@@ -1,0 +1,416 @@
+{
+  "name": "Nome_Disciplina",
+  "children": [
+    {
+      "name": "Leitura de um painel de poemas de diferentes épocas",
+      "children": [
+        {
+          "name": "Dimensão da musicalidade"
+        },
+        {
+          "name": "Dimensão da imagem"
+        },
+        {
+          "name": "Dimensão do pensamento"
+        }
+      ]
+    },
+    {
+      "name": "Variação linguística",
+      "children": [
+        {
+          "name": "Estudo da língua",
+          "children": [
+            {
+              "name": "Fatores responsáveis pela variação linguística"
+            },
+            {
+              "name": "Alguns tipos de variações no português falado"
+            },
+            {
+              "name": "A variação linguística nas regências verbal e nominal"
+            },
+            {
+              "name": "Preconceito linguístico"
+            },
+            {
+              "name": "Ortografia: variações em palavras na linguagem coloquial oral e na linguagem formal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "De volta à poesia",
+      "children": [
+        {
+          "name": "Produção de textos",
+          "children": [
+            {
+              "name": "Análise da linguagem poética e reflexão sobre o que é a poesia"
+            },
+            {
+              "name": "Relação entre poesia e letra de música"
+            },
+            {
+              "name": "Produção de poema"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Narrativa fantástica: “as tênues fronteiras entre o real e o sonho”",
+      "children": [
+        {
+          "name": "Leitura",
+          "children": [
+            {
+              "name": "Leitura de um conto – narrativa fantástica"
+            },
+            {
+              "name": "Elementos da narrativa"
+            },
+            {
+              "name": "Assunto e tema do texto narrativo ficcional"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Narração de diálogos",
+      "children": [
+        {
+          "name": "Estudo da língua",
+          "children": [
+            {
+              "name": "Técnica do diálogo"
+            },
+            {
+              "name": "Transformação do discurso direto em indireto"
+            },
+            {
+              "name": "Discurso indireto livre"
+            },
+            {
+              "name": "Ortografia: pronúncia da vogal 'o', em posição átona, como 'u', e permanência dessa vogal na conjugação dos verbos terminados em -oar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exposição de ideias e opiniões: a dissertação",
+      "children": [
+        {
+          "name": "Produção de textos",
+          "children": [
+            {
+              "name": "Características gerais da dissertação"
+            },
+            {
+              "name": "Dissertação expositiva e dissertação argumentativa: diferenciação básica"
+            },
+            {
+              "name": "Produção de dissertação"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Texto de opinião – editorial",
+      "children": [
+        {
+          "name": "Leitura",
+          "children": [
+            {
+              "name": "O texto informativo-dissertativo"
+            },
+            {
+              "name": "Editorial"
+            },
+            {
+              "name": "Persuasão – Construção de argumentos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colocação dos pronomes oblíquos átonos",
+      "children": [
+        {
+          "name": "Estudo da língua",
+          "children": [
+            {
+              "name": "As posições dos pronomes pessoais oblíquos átonos"
+            },
+            {
+              "name": "A colocação dos pronomes oblíquos átonos na norma-padrão e no português brasileiro coloquial"
+            },
+            {
+              "name": "Ortografia: desinência verbal de imperfeito do subjuntivo × partícula apassivadora 'se'; acentuação nos verbos com os pronomes 'o(s)', 'a(s)' enclíticos e mesoclíticos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Delimitação do tema e intenção do autor",
+      "children": [
+        {
+          "name": "Produção de textos",
+          "children": [
+            {
+              "name": "Retomar diferença entre assunto e tema"
+            },
+            {
+              "name": "Análise de tema para produção textual"
+            },
+            {
+              "name": "Problematização: relação entre a intenção do autor e o texto que produz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leitura de imagem – Redes sociais",
+      "children": [
+        {
+          "name": "Leitura",
+          "children": [
+            {
+              "name": "Leitura de imagem: análise e interpretação de uma fotografia"
+            },
+            {
+              "name": "Leitura de uma reportagem"
+            },
+            {
+              "name": "Leitura e discussão de postagens e comentários de redes sociais"
+            },
+            {
+              "name": "Redes sociais e mídias sociais"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modalização do discurso",
+      "children": [
+        {
+          "name": "Estudo da língua",
+          "children": [
+            {
+              "name": "Recursos de modalização no texto escrito"
+            },
+            {
+              "name": "Recursos de modalização no texto oral"
+            },
+            {
+              "name": "Ortografia: neutralização da oposição 'e/i' nos prefixos 'ante-' e 'anti-'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dissertação argumentativa e dissertação expositiva",
+      "children": [
+        {
+          "name": "Produção de textos",
+          "children": [
+            {
+              "name": "Diferenças entre exposição e argumentação"
+            },
+            {
+              "name": "Características básicas da dissertação argumentativa"
+            },
+            {
+              "name": "A importância do interlocutor na dissertação argumentativa"
+            },
+            {
+              "name": "Produção de dissertação"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ritmos e estratégias narrativas – um conto de Machado de Assis – I",
+      "children": [
+        {
+          "name": "Leitura",
+          "children": [
+            {
+              "name": "Leitura dos segmentos 1 e 2 do conto “A cartomante”"
+            },
+            {
+              "name": "Elementos de narrativa, revisão e sistematização"
+            },
+            {
+              "name": "Ritmos e estratégias narrativas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orações coordenadas",
+      "children": [
+        {
+          "name": "Estudo da língua",
+          "children": [
+            {
+              "name": "Coordenação"
+            },
+            {
+              "name": "Oração coordenada assindética"
+            },
+            {
+              "name": "Oração coordenada sindética"
+            },
+            {
+              "name": "Ortografia: palavras iniciadas por 'ad-' seguido ou não de 'i'; palavras em que há dúvida sobre o uso de 'e' ou de 'i'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A importância do interlocutor",
+      "children": [
+        {
+          "name": "Produção de textos",
+          "children": [
+            {
+              "name": "A persuasão como elemento fundamental na dissertação argumentativa"
+            },
+            {
+              "name": "A relação fundamental entre o interlocutor e a persuasão"
+            },
+            {
+              "name": "Argumentos e interlocutor – a adequação dos argumentos"
+            },
+            {
+              "name": "Produção de texto com ênfase na persuasão"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ritmos e estratégias narrativas – um conto de Machado de Assis – II",
+      "children": [
+        {
+          "name": "Leitura",
+          "children": [
+            {
+              "name": "Leitura dos segmentos 3 e 4 do conto “A cartomante”"
+            },
+            {
+              "name": "Elementos da narrativa, revisão e sistematização"
+            },
+            {
+              "name": "Tempo objetivo e tempo subjetivo"
+            },
+            {
+              "name": "Ritmos e estratégias narrativas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orações subordinadas",
+      "children": [
+        {
+          "name": "Estudo da língua",
+          "children": [
+            {
+              "name": "Oração principal e oração subordinada"
+            },
+            {
+              "name": "Orações subordinadas e seus valores sintáticos"
+            },
+            {
+              "name": "Oração subordinada substantiva"
+            },
+            {
+              "name": "A vírgula entre a oração principal e a oração subordinada substantiva"
+            },
+            {
+              "name": "Ortografia: regras para o uso de 'ç'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "As narrativas de terror (ou de horror)",
+      "children": [
+        {
+          "name": "Produção de textos",
+          "children": [
+            {
+              "name": "Narrativa realista, fantástica e maravilhosa"
+            },
+            {
+              "name": "Características das narrativas de terror"
+            },
+            {
+              "name": "Produção de narrativa de terror"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Um conto africano",
+      "children": [
+        {
+          "name": "Leitura",
+          "children": [
+            {
+              "name": "Leitura de um conto angolano"
+            },
+            {
+              "name": "As literaturas em língua portuguesa na África"
+            },
+            {
+              "name": "Assunto e tema"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orações subordinadas adjetivas",
+      "children": [
+        {
+          "name": "Estudo da língua",
+          "children": [
+            {
+              "name": "As orações subordinadas adjetivas"
+            },
+            {
+              "name": "De olho no emprego dos pronomes relativos"
+            },
+            {
+              "name": "Classificação das orações subordinadas adjetivas"
+            },
+            {
+              "name": "Oração adjetiva e regência verbal e nominal"
+            },
+            {
+              "name": "Ortografia: regras para o uso de 's' e 'ss' em palavras derivadas de verbos"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
