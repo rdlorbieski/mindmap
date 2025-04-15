@@ -29,4 +29,4 @@ html_final = html_template.replace("__JSON_PLACEHOLDER__", json.dumps(json_data)
 # Streamlit app
 st.set_page_config(layout="wide")
 st.title("🌳 Mapa Mental Interativo (Árvore de Conteúdos)")
-components.html(html_final, height=900, scrolling=True)
+components.html(html_final, height=3000, scrolling=True)

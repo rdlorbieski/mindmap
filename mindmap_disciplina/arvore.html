@@ -7,6 +7,7 @@
   <script src="https://cdn.jsdelivr.net/npm/jsmind@0.4.6/js/jsmind.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jsmind@0.4.6/js/jsmind.draggable.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
   <style>
     #jsmind_container {
       width: 100%;
@@ -56,7 +57,10 @@
     const options = {
       container: 'jsmind_container',
       editable: false,
-      theme: 'primary'
+      theme: 'primary',
+        view: {
+          engine: 'svg'  // ⚠️ ESSENCIAL!
+        }
     };
 
     const jm = new jsMind(options);
@@ -64,12 +68,22 @@
 
     function exportarImagem() {
       const container = document.getElementById('jsmind_container');
-      html2canvas(container).then(canvas => {
-        const link = document.createElement('a');
-        link.download = 'mapa_mental.png';
-        link.href = canvas.toDataURL();
-        link.click();
-      });
+      const originalHeight = container.style.height;
+      container.style.height = container.scrollHeight + "px";
+
+      setTimeout(() => {
+        html2canvas(container, {
+          backgroundColor: "#ffffff",
+          useCORS: true
+        }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = 'mapa_mental.png';
+          link.href = canvas.toDataURL();
+          link.click();
+
+          container.style.height = originalHeight;
+        });
+      }, 300);
     }
   </script>
 </body>
