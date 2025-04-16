@@ -10,7 +10,7 @@
 
   <style>
     #jsmind_container {
-      width: 100%;
+      width: 1000px;
       height: 800px;
       border: solid 1px #ccc;
       background: #f4f4f4;
@@ -32,7 +32,8 @@
         id: id,
         isroot: parentId === null,
         topic: node.name,
-        parentid: parentId
+        parentid: parentId,
+        highlight: node["highlight"] || false // ← nova propriedade
       };
       nodes.push(nodeData);
       if (node.children) {
@@ -56,15 +57,33 @@
 
     const options = {
       container: 'jsmind_container',
-      editable: false,
+      editable: true,
       theme: 'primary',
-        view: {
-          engine: 'svg'  // ⚠️ ESSENCIAL!
-        }
+      view: {
+        engine: 'svg'
+      }
     };
 
     const jm = new jsMind(options);
     jm.show(mindData);
+
+    // 🎯 Aplica a cor de destaque nos nós que têm "highlight": true
+    for (const node of nodeArray) {
+      if (node.highlight === true) {
+        console.log(node.id);
+        jm.set_node_color(node.id, null, '#f1c40f');
+      }
+    }
+
+    // Ajuste automático de tamanho
+    setTimeout(() => {
+      const canvas = document.querySelector("#jsmind_container canvas");
+      if (canvas) {
+        const padding = 40;
+        document.getElementById('jsmind_container').style.width = (canvas.width + padding) + 'px';
+        document.getElementById('jsmind_container').style.height = (canvas.height + padding) + 'px';
+      }
+    }, 300);
 
     function exportarImagem() {
       const container = document.getElementById('jsmind_container');
@@ -80,7 +99,6 @@
           link.download = 'mapa_mental.png';
           link.href = canvas.toDataURL();
           link.click();
-
           container.style.height = originalHeight;
         });
       }, 300);
